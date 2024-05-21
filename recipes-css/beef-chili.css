@@ -1,0 +1,30 @@
+* {
+    background-color: yellowgreen;
+}
+
+#title,
+.desc,
+.Ingre,
+.toppings,
+.steps {
+    font-size: 50px;
+    font-weight: bolder;
+    background-image: url(../images/beefchili.png);
+    text-align: center;
+    border-radius: 10%;
+}
+
+img {
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.desc2,
+ul,
+ol {
+    font-size: 20px;
+}

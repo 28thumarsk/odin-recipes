@@ -1,0 +1,33 @@
+.body {
+    font-family: "Times New Roman", "Lucida Console", serif;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(247, 0, 255);
+    /* background-color: aqua; */
+    background-image: url(../images/yakamein\ noodles.png);
+}
+
+#list {
+    text-align: left;
+    background-color: wheat;
+}
+
+
+#yakamein {
+    background-image: url(../images/yakamein\ noodles.png);
+
+}
+
+#beef-chili {
+    background-image: url(../images/beefchili.png);
+}
+
+
+#eggs-benedict {
+    background-image: url(../images/eggsbenedict.png);
+}
