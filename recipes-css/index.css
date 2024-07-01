@@ -1,33 +1,50 @@
-.body {
-    font-family: "Times New Roman", "Lucida Console", serif;
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
 }
 
-
-.title {
+.container {
+    background: rgb(188, 238, 238);
+    padding: 20px;
     text-align: center;
-    font-size: 50px;
-    font-weight: bolder;
-    color: rgb(247, 0, 255);
-    /* background-color: aqua; */
-    background-image: url(../images/yakamein\ noodles.png);
 }
 
-#list {
-    text-align: left;
-    background-color: wheat;
+/* Heading styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+    margin-top: auto;
+}
+
+/* List styling */
+.website-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.website-list li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #e9ecef;
+    border-radius: 5px;
 }
 
 
-#yakamein {
-    background-image: url(../images/yakamein\ noodles.png);
-
+.website-list a {
+    color: #3498db;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
 }
 
-#beef-chili {
-    background-image: url(../images/beefchili.png);
-}
-
-
-#eggs-benedict {
-    background-image: url(../images/eggsbenedict.png);
+.website-list p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
 }
